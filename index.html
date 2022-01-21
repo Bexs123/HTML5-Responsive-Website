@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Viewport this makes the website responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>HTML5 Website With A Responsive Layout</title>
 </head>
 <body>
+
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Affordable Web Design</h1>
+                <!-- Span is a inline level element, it will keep it on its own line  -->
+                <h1><span class="highlight">Company Name</span> Web Designs</h1>
             </div>
+
             <nav>
+                <!--Unordered List-->
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <!--List items-->
+                    <li class="current"><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
                 </ul>
@@ -25,7 +31,7 @@
 
     <section id="showcase">
         <div class="container">
-            <h1>Afordable Web Design</h1>
+            <h1>Affordable Professional Web Design</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum aperiam doloribus possimus hic adipisci voluptas beatae officia suscipit! Ipsam.</p>
         </div>
     </section>
@@ -33,6 +39,7 @@
     <section id="newsletter">
         <div class="container">
             <h1>Subscribe to our newsletter</h1>
+            <!--No backend server, information doesn't get processed-->
             <form>
                 <input type="email" placeholder="Enter Email">
                 <button type="submit" class="button_1">Subscribe</button>
@@ -43,23 +50,23 @@
     <section id="boxes">
         <div class="container">
             <div class="box">
-                <img src="img/H5.png">
+                <img src="img/H5.png" height="200px" width="200px">
                 <h3>HTML5 Markekup</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laboriosam?</p>
             </div>
             <div class="box">
-                <img src="img/css.jpg">
+                <img src="img/css.jpg" height="170px" width="170px">
                 <h3>CCS3 Styling</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, tenetur!</p>
         </div>
         <div class="box">
-            <img src="img/JavaScript-Logo.png">
+            <img src="img/JavaScript-Logo.png" height="170px" width="220px">
             <h3>JavaScript</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, quaerat?</p>
     </section>
 
     <footer>
-        <p>Thank You for visiting my website</p>
+        <p>Thank You for visiting my website, Copyright &copy; 2022</p>
     </footer>
 
 
